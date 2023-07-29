@@ -1,0 +1,101 @@
+/* * {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 2px solid black;
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+*/
+ img {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    border-radius: 20px;
+} 
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.card {
+    border: 2px solid black;
+    width: 200px;
+    height: 250px;
+    margin: 0px;
+    padding: 0px;
+    background-image:url(./New-Delhi-Starbucks-menu-5.jpg) ;
+    border-radius: 20px;
+    
+
+}
+a{
+    color: bisque;
+    text-decoration: none;
+}
+
+
+
+.nav{
+    display: flex;
+    justify-content: center;
+}
+
+.nav div img{
+    width: 200px;
+    height: 50px;
+}
+
+
+.nav div ul{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    list-style: none;
+}
+
+.nav div button{
+    padding: 10px 30px;
+    margin: 10px;
+}
+
+#btn1{
+    color: white;
+    background-color: #0d6db7;
+    border: none;
+    border-radius: 5px;
+}
+
+#btn2{
+    color: white;
+    background-color: #8dc63f;
+    border: none;
+    border-radius: 5px;
+}
+li{
+    font-size: 15xp;
+    letter-spacing: normal; 
+    /* font-family: poppins-regular; */
+    /* text align:first; */
+    /* line-height: 22px; */
+}
